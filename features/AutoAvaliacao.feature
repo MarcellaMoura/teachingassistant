@@ -14,9 +14,8 @@ Given: eu estou logado na página de notas dos alunos
 When eu seleciono a opcao “alunos discrepantes”
 Then aparece a mensagem “sem alunos com notas discrepantes”
 
-
-
 Cenario: turma com discrepancia
 Given: eu estou logado na página de notas dos alunos
 When eu seleciono a opcao “alunos discrepantes”
 Then eu estou na pagina “alunos com notas discrepantes”
+And aparece uma mensagem de erro
